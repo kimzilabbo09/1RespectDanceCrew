@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,9 +19,9 @@
     <main>
         <h2>YOU ARE ENOUGH!</h2>
 
-        <img src="{{ url_for('static', filename='kimm.jpg') }}"
-             class="main-picture"
-             alt="You are enough">
+        <video class="main-picture" autoplay muted loop playsinline>
+            <source src="{{ url_for('static', filename='kimm.mp4') }}" type="video/mp4">
+        </video>
 
         <p class="message">
             You are kind. You are strong.
