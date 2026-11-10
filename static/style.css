@@ -35,6 +35,39 @@ h1 {
     text-decoration: none;
     border-radius: 20px;
 }
+/* FACEBOOK QR CODE DESIGN */
+
+.facebook-qr {
+    text-align: center;
+    margin: 35px auto;
+    padding: 25px;
+    max-width: 320px;
+    width: 85%;
+    background: #F0F8FF;
+    border: 1px solid #C5E3F5;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.facebook-qr h3 {
+    color: #315B78;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.facebook-qr img {
+    width: 180px;
+    height: 180px;
+    padding: 8px;
+    background: white;
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+.facebook-qr p {
+    color: #56758C;
+    font-size: 13px;
+}
 
 footer {
     background-color: #A183C0;
