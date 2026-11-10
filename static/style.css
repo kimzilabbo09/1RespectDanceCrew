@@ -43,7 +43,7 @@ h1 {
     padding: 25px;
     max-width: 320px;
     width: 85%;
-    background: #F0F8FF;
+    background: #56758C;
     border: 1px solid #C5E3F5;
     border-radius: 15px;
     box-sizing: border-box;
@@ -65,7 +65,7 @@ h1 {
 }
 
 .facebook-qr p {
-    color: #56758C;
+    color: #000000;
     font-size: 13px;
 }
 
@@ -73,7 +73,7 @@ h1 {
     display: inline-block;
     margin-top: 12px;
     padding: 12px 20px;
-    background: #7180BB;
+    background: #6f89a9;
     color: #24618A;
     text-decoration: none;
     border: 1px solid #A9D5F5;
