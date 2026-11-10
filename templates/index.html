@@ -37,27 +37,23 @@
             City of Ilagan Represent
         </p>
 
+
         <!-- FACEBOOK QR CODE -->
-        <div class="facebook-qr">
-
-            <h3>FOLLOW US ON FACEBOOK</h3>
-
-            <a href="https://www.facebook.com/KimSejeongSesang"
-               target="_blank"
-               rel="noopener noreferrer">
-
-                <img src="{{ url_for('static', filename='facebook_page_qr.jpg') }}"
-                     alt="Facebook QR Code">
-
-            </a>
-
-            <p>Scan to visit our Facebook page!</p>
-
-        </div>
-
-        <!-- WEBSITE QR CODE -->
         <h2>Be one of our Dance Group</h2>
+<div class="facebook-qr">
+    <h2>FOLLOW US ON FACEBOOK</h2>
 
+    <img src="{{ url_for('static', filename='facebook_page_qr.jpg') }}"
+         alt="Facebook QR Code">
+
+    <p>Scan the QR code or click the button below to visit our Facebook page.</p>
+
+    <a href="https://www.facebook.com/KimSejeongSesang"
+       target="_blank"
+       class="fb-button">
+        Click to Directly Visit Our FB Page
+    </a>
+</div>
     </main>
 
     <footer>
