@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,14 +13,15 @@
 <body>
 
     <header>
-        <h1>1 Repsect Dance Crew</h1>
+        <h1>1 Respect Dance Crew</h1>
         <p>Talented and Passionate Dancers of City of Ilagan, Isabela.</p>
     </header>
 
     <main>
         <h2>1RDC</h2>
 
-        <video class="main-picture" autoplay loop playsinline controls>
+        <!-- VIDEO -->
+        <video class="main-picture" autoplay muted loop playsinline controls>
             <source src="{{ url_for('static', filename='kimm.mp4') }}" type="video/mp4">
         </video>
 
@@ -27,6 +29,25 @@
             City of Ilagan Represent
         </p>
 
+        <!-- FACEBOOK QR CODE -->
+        <div class="facebook-qr">
+
+            <h3>FOLLOW US ON FACEBOOK</h3>
+
+            <a href="https://www.facebook.com/KimSejeongSesang"
+               target="_blank"
+               rel="noopener noreferrer">
+
+                <img src="{{ url_for('static', filename='facebok_page_qr.png') }}"
+                     alt="Facebook QR Code">
+
+            </a>
+
+            <p>Scan to visit our Facebook page!</p>
+
+        </div>
+
+        <!-- WEBSITE QR CODE -->
         <h2>Share the Positivity!</h2>
 
         <p>Scan this QR code to visit our website.</p>
@@ -42,6 +63,7 @@
            class="download-button">
             Download QR Code
         </a>
+
     </main>
 
     <footer>
