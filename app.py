@@ -7,7 +7,7 @@ from io import BytesIO
 app = Flask(__name__)
 
 # Correct QR destination
-PUBLIC_URL = "https://onerespectdancecrew.onrender.com"
+PUBLIC_URL = "https://onerespectdancecrew.onrender.com/static/kimm.mp4"
 QR_URL = f"{PUBLIC_URL}"
 
 
