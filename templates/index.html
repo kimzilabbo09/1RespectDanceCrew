@@ -21,9 +21,12 @@
         <h2>1RDC</h2>
 
         <!-- VIDEO -->
-        <video class="main-picture" autoplay muted loop playsinline controls>
-            <source src="{{ url_for('static', filename='kimm.mp4') }}" type="video/mp4">
-        </video>
+        <video class="main-picture"
+       autoplay
+       loop
+       playsinline>
+    <source src="{{ url_for('static', filename='kimm.mp4') }}" type="video/mp4">
+</video>
 
         <p class="message">
             City of Ilagan Represent
@@ -38,7 +41,7 @@
                target="_blank"
                rel="noopener noreferrer">
 
-                <img src="{{ url_for('static', filename='facebok_page_qr.png') }}"
+                <img src="{{ url_for('static', filename='facebok_page_qr.jpg') }}"
                      alt="Facebook QR Code">
 
             </a>
